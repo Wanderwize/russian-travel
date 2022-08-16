@@ -1,0 +1,31 @@
+.intro__list {
+  max-width: 690px;
+  height: 90px;
+  margin: 0;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__list {
+    width: 288px;
+height: 90px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+margin-left: 16px;
+margin-right: 0;
+
+
+color: #FFFFFF;
+
+  }
+}
