@@ -12,21 +12,14 @@
 
 @media screen and (max-width: 320px) {
   .lead__subtitle {
-   
-width: 288px;
-height: 40px;
-
-
-
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-/* or 125% */
-
-text-align: center;
-
-color: #FFFFFF;
+    width: 288px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
 
   }
 }

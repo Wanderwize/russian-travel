@@ -12,13 +12,11 @@
 @media screen and (max-width: 320px) {
   .footer__link {
    padding-bottom: 32px;
-
   }
 }
 
 @media screen and (max-width: 480px) {
   .footer__link {
    padding-bottom: 32px;
-
   }
 }

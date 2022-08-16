@@ -10,7 +10,6 @@
   color: #FFFFFF;
   z-index: 1;
   max-width: 560px;
-  ;
   text-align: center;
 } 
 
@@ -21,23 +20,15 @@
 } 
 
 @media screen and (max-width: 320px) {
-  .cover__title {
-    
-    
-max-width: 288px;
-margin-bottom: 16px;
-
-
-
-font-style: normal;
-font-weight: 900;
-font-size: 32px;
-line-height: 35px;
-
-
-text-align: center;
-
-color: #FFFFFF;
+.cover__title {
+  max-width: 288px;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
 
     
   }

@@ -5,7 +5,6 @@
   font-size: 18px;
   line-height: 22px;
   max-width: 360px;
-  
   left: 412px;
   margin: 0 auto;
   text-align: center;
@@ -14,17 +13,13 @@
 }
 
 @media screen and (max-width: 320px) {
-  .cover__subtitle {
-    max-width: 288px;
-
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-
-
-text-align: center;
-
-color: #FFFFFF;
+.cover__subtitle {
+  max-width: 288px;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 16px;
+ text-align: center;
+ color: #FFFFFF;
   }
 }
