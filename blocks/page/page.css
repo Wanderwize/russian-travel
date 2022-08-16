@@ -10,10 +10,8 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  margin: 0 auto;
   padding: 0;
   color: #FFF;
-  background-color: #2A2C2F;
   font-family: "Inter", "Arial ", sans-serif;
  
 }
