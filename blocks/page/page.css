@@ -30,6 +30,15 @@ body {
   }
 }
 
+@media screen and (max-width: 470px) {
+  body {
+    max-width: 470px
+    
+  
+
+  }
+}
+
 @media screen and (max-width: 320px) {
   body {
     max-width: 320px;
