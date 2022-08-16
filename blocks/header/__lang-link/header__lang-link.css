@@ -9,3 +9,7 @@
   max-width: 30px;
   height: 28px;
 }
+
+.header__lang-link:first-of-type {
+  text-decoration: underline;
+}
