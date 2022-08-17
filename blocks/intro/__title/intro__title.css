@@ -1,6 +1,5 @@
 .intro__title {
   max-width: 690px;
-  height: auto;
   margin: 0;
   padding-bottom: 40px;
   padding-top: 92px;
@@ -28,7 +27,6 @@
 @media screen and (max-width: 320px) {
   .intro__title {
     max-width: 288px;
-    height: 70px;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;

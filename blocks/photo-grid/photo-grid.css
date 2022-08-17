@@ -13,6 +13,7 @@
     grid-template-rows: repeat(3, 1fr);
     gap: 14px;
     max-width: 928px;
+    margin: 0 auto;
   }
 }
 
@@ -22,8 +23,16 @@
     grid-template-rows: auto;
     gap: 14px;
     max-width: 720px;
-    margin-top: 88px;
-    margin-bottom: 10px;
+    margin: 0 auto;
+    
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .photo-grid {
+    padding-bottom: 64px;
+    margin: auto;
+    max-width: 370;
   }
 }
 
@@ -35,6 +44,7 @@
     max-width: 320px;
     margin-top: 88px;
     margin-bottom: 64px;
+   
     
   }
 }

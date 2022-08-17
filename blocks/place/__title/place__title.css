@@ -8,7 +8,7 @@
   margin: 0;
   color: #FFFFFF;
   width:  auto;
-  margin-left: 80px;
+  ;
 
   }
 
@@ -32,6 +32,13 @@
     }
   }
 
+   @media screen and (max-width: 470px) {
+    .place__title {
+      padding-bottom: 32px;
+
+    }
+  }
+
 
   @media screen and (max-width: 320px) {
     .place__title {
@@ -43,6 +50,7 @@
       line-height: 35px;
       margin: 0;
       margin-left: 16px;
+
       margin-bottom: 32px;
 
     }
