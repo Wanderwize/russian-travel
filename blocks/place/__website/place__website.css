@@ -1,14 +1,17 @@
 .place__website {
-  max-width: 456px;
   height: 46px;
   align-self: end;
+  padding-bottom: 48px;
 }
+
+
 
 @media screen and (max-width: 470px) {
   .place__website {
     align-self: flex-start;
     margin-left: 0;
     margin-bottom: 32px;
+
   }
 }
 
@@ -16,6 +19,6 @@
   .place__website {
     align-self: flex-start;
     margin-left: 16px;
-    margin-bottom: 32px;
+    padding-bottom: 0;
   }
 }

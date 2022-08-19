@@ -6,13 +6,15 @@
   font-size: 72px;
   line-height: 76px;
   margin: 0;
+  margin-bottom: 48px;
   color: #FFFFFF;
   width:  auto;
    }
 
   @media screen and (max-width: 1024px) {
     .place__title {
-      margin: 0;
+      
+      margin-bottom: 48px;
 
       }
 
@@ -21,11 +23,9 @@
   @media screen and (max-width: 768px) {
     .place__title {
       max-width: 340px;
-      font-style: normal;
-      font-weight: 900;
       font-size: 42px;
       line-height: 46px;
-      margin: 0;
+      
 
     }
   }
@@ -41,14 +41,11 @@
   @media screen and (max-width: 320px) {
     .place__title {
       width: 288px;
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 900;
       font-size: 32px;
       line-height: 35px;
-      margin: 0;
       margin-left: 16px;
-      margin-bottom: 32px;
+      padding: 0;
+      
 
     }
   }

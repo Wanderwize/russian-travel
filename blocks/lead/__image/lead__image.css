@@ -3,6 +3,7 @@
   max-width: 984px;
   height: auto;
   
+  
 }
 
 @media screen and (max-width: 1024) {
@@ -22,11 +23,6 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .lead__image {
-    max-width: 100%;
-    
-  }
-}
+
 
 

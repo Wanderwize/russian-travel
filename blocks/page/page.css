@@ -1,7 +1,5 @@
-body {
-  max-width: 1280px;
+.page {
   
-  min-height: 6875px;
   margin: 0 auto;
   background-color: #2A2C2F;
   -moz-osx-font-smoothing: grayscale;
@@ -17,19 +15,19 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-  body {
+  .page {
     max-width: 1024px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  body {
+  .page {
     max-width: 768px;
   }
 }
 
 @media screen and (max-width: 470px) {
-  body {
+  .page {
     max-width: 470px;
     
   
@@ -38,7 +36,7 @@ body {
 }
 
 @media screen and (max-width: 320px) {
-  body {
+  .page {
     max-width: 320px;
   }
 }
