@@ -13,9 +13,7 @@
     grid-template-rows: repeat(3, 1fr);
     gap: 14px;
     max-width: 928px;
-    margin: 0 auto;
-    margin-top: 92px;
-    margin-bottom: 92px;
+    
   }
 }
 

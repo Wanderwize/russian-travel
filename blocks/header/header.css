@@ -1,12 +1,11 @@
 .header {
   max-width: 1184px;
-  display: grid;
-  grid-template-columns: auto 30px 30px;
-  align-items: end;
+  display: flex;
+  justify-content: space-between;
   padding-top:  28px;
-  column-gap: 18px;
   margin: 0 auto;
   margin-bottom: 56px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1028px) {
@@ -31,6 +30,9 @@
     padding-bottom: 48px;
     padding-left: 16px;
     padding-right: 16px;
+    
+    
+
 
    
   }

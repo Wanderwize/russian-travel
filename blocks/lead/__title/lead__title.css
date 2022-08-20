@@ -23,16 +23,8 @@
 
 @media screen and (max-width: 660px) {
   .lead__title {
-  margin-bottom: 32px;
   font-size: 12vw;
   
-  
-  }
-}
-
-@media screen and (max-width: 560px) {
-  .lead__title {
-  margin-bottom: 32px;
   
   }
 }

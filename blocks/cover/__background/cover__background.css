@@ -8,24 +8,26 @@
   justify-content: center;
   flex-direction: column;
   background-size: cover;
+  background-image: url(cover-trains.jpg);
+  text-decoration: none;
 }
 
 .cover__background::before {
   content: '';
-  background-image: url(cover-trains.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;
   background-color: #2A2C2F;
+  opacity: 0.3;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  opacity: 0.3;
+ 
 }
 
 .cover__background:hover::before {
- opacity: 0.8;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
