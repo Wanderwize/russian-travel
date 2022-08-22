@@ -7,40 +7,34 @@
   padding-bottom: 24px;
   gap: 0;
  }
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .footer {
-    max-width: 928px;
+    width: calc(100% - 2*48px)
     }
 }
+ 
+
 
 @media screen and (max-width: 768px) {
   .footer {
-    max-width: 720px;
-    margin: 0 24px 0 24px;
+    width: calc(100% - 2*24px);
     padding-top: 88px;
-    
-  }
+    }
 }
 
 @media screen and (max-width: 690px) {
   .footer {
     flex-direction: column;
-
-  }
-}
-
-
-
-
-@media screen and (max-width: 320px) {
-  .footer {
+    align-items: flex-start;
     padding-top: 64px;
     margin: 0;
     margin-left: 16px;
     margin-right: 0;
     max-width: 186px;
-    
 
   }
 }
+
+
+
+
